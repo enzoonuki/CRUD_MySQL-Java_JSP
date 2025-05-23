@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Consultar livro</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+     <form action="consulta" method="POST">
+     Código: <input type="number" name="codigo" required/><br>
+
+     <br><input type="submit" value="consultar"/><br>
+     </form>
+        <br><a href="pagcadastro.html">Cadastrar livro</a>
+        <br><a href="pagatualiza.html">Atualizar livro</a>
+        <br><a href="pagdeleta.html">Deletar livro</a>
+        <br><br>
+        <form action="criatab" method="POST">
+            <br><input type="submit" value="Criar tabela"/><br>
+        </form>
+        <form action="droptab" method="POST">
+            <br><input type="submit" value="Deletar tabela"/><br>
+        </form>
+    </body>
+</html>
